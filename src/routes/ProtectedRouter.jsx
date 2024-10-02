@@ -16,6 +16,7 @@ const ProtectedRouter = () => {
         setUserData(null); // Set userData to null if authentication fails
       } finally {
         setLoading(false); // Set loading to false after checking
+        // my pull request
       }
     };
 
